@@ -1,0 +1,26 @@
+<!--Сделайте страничку с возможность выбора темы из выпадающего списка (например, темная, белая, синяя). После выбора темы меняйте фон документа согласно выбранному цвету.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="background.css">
+</head>
+<body> 
+    <section id="section">
+        <label class="title">Выберите тему:</label>
+        <select name="background" id="background" onchange="changeBackground()">
+            <option value="white">Белая</option>
+            <option value="dark">Темная</option>
+            <option value="beige">Бежевая</option>
+            <option value="green">Зеленая</option>
+        </select>
+        <h1>Это мой веб-сайт</h1>
+    </section>
+    <script src="background.js"></script>
+</body>
+</html>

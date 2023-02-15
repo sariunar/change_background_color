@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+#section{
+    width: 100%;
+    height: 100vh;
+    font-family: "Didact Gothic", sans-serif;
+    text-align: center;
+}
+.title{
+}
